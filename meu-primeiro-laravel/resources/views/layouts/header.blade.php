@@ -6,10 +6,6 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body>
-    @include('layouts.navbar')
-
-
 
 <body>
     @include('layouts.navbar')

@@ -1,4 +1,5 @@
 @extends('layouts.header')
+<link rel="stylesheet" href="/meu-primeiro-laravel/public/css/app.css">
 
 @section('title', 'Home')
 
@@ -7,3 +8,4 @@
 @endsection
 
 @include('layouts.footer')
+@extends('layouts.master')
