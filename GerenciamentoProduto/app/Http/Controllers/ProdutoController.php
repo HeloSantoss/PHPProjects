@@ -32,7 +32,6 @@ class ProdutoController extends Controller
         $request->validate([
             'nome' => 'required',
             'preço' => 'required|numeric',
-            'quantidade' => 'required|integer',
         ]);
 
         Produto::create($request->all());
@@ -67,7 +66,6 @@ class ProdutoController extends Controller
         $request->validate([
             'nome' => 'required',
             'preço' => 'required|numeric',
-            'quantidade' => 'required|integer',
         ]);
 
         $produto = Produto::findOrFail($id); // Obtenha o produto pelo ID
