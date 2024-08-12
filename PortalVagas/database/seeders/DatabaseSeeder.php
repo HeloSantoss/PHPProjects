@@ -9,14 +9,15 @@ use Illuminate\Database\Seeder;
 class DatabaseSeeder extends Seeder
 {
     /**
-     * Seed the appl
-     * ication's database.
+     * Seed the application's database.
      */
-    public function run()
+    public function run(): void
     {
-        $this->call([
-            ProdutoSeeder::class,
+        // User::factory(10)->create();
+
+        User::factory()->create([
+            'name' => 'Test User',
+            'email' => 'test@example.com',
         ]);
     }
-
 }
