@@ -2,24 +2,29 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
+
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Model;
 
-class Inscricao extends Authenticatable
+
+class Inscricao extends Model
 {
-   use Notifiable, HasFactory;
+    use HasFactory;
 
-   protected $fillable = [
-    'usuario_id', 'vaga_id', 'status',
-   ];
 
-public function usuario(){
-    return $this->belongsTo(Usuario::class);
-   }
+    protected $fillable = [
+        'usuario_id', 'vaga_id', 'status',
+    ];
 
-   public function vaga(){
-    return $this->hasMany(Vaga::class);
-   }
+
+    public function usuario()
+    {
+        return $this->belongsTo(Usuario::class);
+    }
+
+
+    public function vaga()
+    {
+        return $this->belongsTo(Vaga::class);
+    }
 }

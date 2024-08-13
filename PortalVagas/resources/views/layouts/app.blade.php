@@ -11,6 +11,11 @@
 <body>
     <div>
         @include('parts.header')
+
+        <div class="container">
+        @yield('content')
+    </div>
+
          @include('parts.footer')
         </div>
 

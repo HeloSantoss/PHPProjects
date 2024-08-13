@@ -17,7 +17,9 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->boolean('is_empresa')->default(false);  // Indica se o usuário é uma empresa
+            $table->enum('tipo', [1-'usuario', 2-'empresa'])->default(1-'usuario');
+            $table->string('cnpj')->nullable();
+            $table->string('nome_empresa')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
