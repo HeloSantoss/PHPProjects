@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Http\Controllers;
-
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use App\Models\Usuario;
-
 
 class UsuarioController extends Controller
 {
@@ -17,7 +14,6 @@ class UsuarioController extends Controller
     {
         return view('usuarios.login');
     }
-
 
     // Processar o login do usuário
     public function login(Request $request)
@@ -28,13 +24,11 @@ class UsuarioController extends Controller
             'password' => ['required'],
         ]);
 
-
         // Tenta autenticar com o guard 'usuario'
         if (Auth::guard('usuario')->attempt($credentials)) {
             $request->session()->regenerate(); // Regenera a sessão para evitar fixação de sessão
             return redirect()->intended('/dashboard');
         }
-
 
         // Se falhar, retorna com erro
         return back()->withErrors([
@@ -42,13 +36,11 @@ class UsuarioController extends Controller
         ])->onlyInput('email');
     }
 
-
     // Exibir o formulário de registro
     public function showRegistroForm()
     {
         return view('usuarios.registro');
     }
-
 
     // Processar o registro de um novo usuário
     public function registro(Request $request)
@@ -60,7 +52,6 @@ class UsuarioController extends Controller
             'password' => 'required|string|min:8|confirmed',
         ]);
 
-
         // Cria um novo usuário
         $usuario = Usuario::create([
             'nome' => $request->nome,
@@ -68,14 +59,11 @@ class UsuarioController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-
         // Faz login automático do novo usuário
         Auth::guard('usuario')->login($usuario);
 
-
         return redirect('/dashboard');
     }
-
 
     // Realizar o logout do usuário
     public function logout(Request $request)
@@ -83,10 +71,8 @@ class UsuarioController extends Controller
         Auth::guard('usuario')->logout(); // Logout do guard 'usuario'
         $request->session()->regenerateToken(); // Regenera o token da sessão
 
-
         $request->session()->invalidate();
         $request->session()->regenerate();// Invalida a sessão
-
 
         return redirect('/');
     }

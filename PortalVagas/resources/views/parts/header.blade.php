@@ -1,18 +1,28 @@
-
-<div class="container-flex">
-    <br>
-    <br>
-    @if(Auth::check)
-    @if(Request()->user()->where('tipo','empresa', )->first())
-<div>
-    Olá empresa
-</div>
-@else
-<div>
-    Olá usuario
-</div>
+@if (Auth::check())
+    @if (Auth::user()->isEmpresa())
+    <div>
+        <a href="/vagas">Acesse Dashboard de Vagas</a>
+    </div> 
     @endif
+    <div>
+        <h3>Olá, {{ Auth::user()->nome }}</h3>
+    </div>
+    <div>
+        <form action="/logout" method="post">
+            @csrf
+            <input type='submit' value='Sair'>
+        </form>
+    </div>
     <br>
     <hr>
     <br>
-</div>
+    
+@else
+    <div class="nav-bar">
+        <a href="/login">Login</a>
+        <a href="/registro">Registre-se</a>
+    </div>
+    <br>
+    <hr>
+    <br>
+@endif
