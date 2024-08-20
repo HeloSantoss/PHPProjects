@@ -10,6 +10,7 @@
         body {
             font-family: 'Arial', sans-serif;
             padding-top: 56px;
+            background-color: #f7f3dd;
         }
         .navbar {
             background-color: #3271b4;
@@ -75,6 +76,39 @@
         .footer a:hover {
             color: #3ae7b3;
         }
+        .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3271b4;
+}
+#circular-images {
+    background-color: #54a7ec; /* Exemplo de cor de fundo */
+}
+
+
     </style>
 </head>
 <body>
@@ -82,9 +116,8 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="https://via.placeholder.com/40x40" alt="Farmácia Drogal">
-                Farmácia Drogal
-            </a>
+                <img src="https://drogal.vtexassets.com/assets/vtex.file-manager-graphql/images/33ca501c-59e1-4303-84c1-22e888a20fd2___dab900e693b1bd611be04cf94abe4c65.svg" alt="Farmácia Drogal">
+                           </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,15 +142,80 @@
             </div>
         </div>
     </nav>
-
-    <!-- Jumbotron -->
     <header class="jumbotron text-center">
-        <div class="container">
-            <h1 class="display-4">Bem-vindo a Farmácia Drogal</h1>
-            <p class="lead">Gerencie seus clientes, produtos e vendas de forma fácil e eficiente.</p>
-            <a href="#clients" class="btn btn-primary btn-lg">Conheça nossos clientes</a>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://drogal.vtexassets.com/assets/vtex.file-manager-graphql/images/a81563d6-453d-46fc-8b97-efcd5c53fc54___8f03442dbc43c3b352199391c40b43e0.png" class="d-block w-100" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bem-vindo à Farmácia Drogal</h5>
+                        <p>Gerencie seus clientes, produtos e vendas de forma fácil e eficiente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://drogal.vtexassets.com/assets/vtex.file-manager-graphql/images/9b178a1e-2a7a-4f96-a0f8-d055635f9ac2___d1d6d4d42761311893bf9b209532530c.webp" class="d-block w-100" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Conheça nossos clientes</h5>
+                        <p>Veja como estamos ajudando nossos clientes a melhorar sua saúde.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://drogal.vtexassets.com/assets/vtex.file-manager-graphql/images/a3944cb5-1c6c-4206-9b85-c02fccd02f64___2f03b7e2e77975832808ed995f4ac69b.png" class="d-block w-100" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nossos Produtos</h5>
+                        <p>Produtos de qualidade para atender às suas necessidades.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
     </header>
+    
+
+    <!-- Seção de Imagens Circulares -->
+<section id="circular-images" class="py-5 text-center">
+    <div class="container">
+        <h2 class="section-title">Nossa Equipe</h2>
+        <div class="image-row d-flex justify-content-center">
+            <div class="image-container mx-2">
+                <img src="https://i.pinimg.com/564x/d2/10/13/d210133be013456c6fc2819440141f6a.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Nome 1</p>
+            </div>
+            <div class="image-container mx-2">
+                <img src="https://i.pinimg.com/564x/1b/9d/9c/1b9d9cb414f8b355728fa9c45fc16be2.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Nome 2</p>
+            </div>
+            <div class="image-container mx-2">
+                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Nome 3</p>
+            </div>
+            <div class="image-container mx-2">
+                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Nome 3</p>
+            </div>
+            <div class="image-container mx-2">
+                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Nome 3</p>
+            </div>
+            <div class="image-container mx-2">
+                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Nome 3</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Seção de Clientes -->
     <section id="clients" class="py-5">
@@ -125,6 +223,26 @@
             <h2 class="section-title">Clientes</h2>
             <div class="row">
                 <!-- Exemplo de Cliente -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Cliente">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Cliente</h5>
+                            <p class="card-text">Detalhes do Cliente.</p>
+                            <a href="{{ route('clients.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Cliente">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Cliente</h5>
+                            <p class="card-text">Detalhes do Cliente.</p>
+                            <a href="{{ route('clients.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Cliente">
@@ -156,6 +274,86 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Produto</h5>
+                            <p class="card-text">Descrição do Produto.</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Repita para mais produtos -->
             </div>
         </div>
@@ -167,6 +365,17 @@
             <h2 class="section-title">Vendas</h2>
             <div class="row">
                 <!-- Exemplo de Venda -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Venda">
+                        <div class="card-body">
+                            <h5 class="card-title">Realizar Venda</h5>
+                            <p class="card-text">Cliente: Nome do Cliente</p>
+                            <p class="card-text">Produto: Nome do Produto</p>
+                            <a href="{{ route('sales.index') }}" class="btn btn-primary">Ver todas as vendas</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Venda">
