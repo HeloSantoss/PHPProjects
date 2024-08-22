@@ -153,22 +153,22 @@
                 <div class="carousel-item active">
                     <img src="https://drogal.vtexassets.com/assets/vtex.file-manager-graphql/images/a81563d6-453d-46fc-8b97-efcd5c53fc54___8f03442dbc43c3b352199391c40b43e0.png" class="d-block w-100" alt="Imagem 1">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Bem-vindo à Farmácia Drogal</h5>
-                        <p>Gerencie seus clientes, produtos e vendas de forma fácil e eficiente.</p>
+                        <h5></h5>
+                        <p></p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://drogal.vtexassets.com/assets/vtex.file-manager-graphql/images/9b178a1e-2a7a-4f96-a0f8-d055635f9ac2___d1d6d4d42761311893bf9b209532530c.webp" class="d-block w-100" alt="Imagem 2">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Conheça nossos clientes</h5>
-                        <p>Veja como estamos ajudando nossos clientes a melhorar sua saúde.</p>
+                        <h5></h5>
+                        <p></p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://drogal.vtexassets.com/assets/vtex.file-manager-graphql/images/a3944cb5-1c6c-4206-9b85-c02fccd02f64___2f03b7e2e77975832808ed995f4ac69b.png" class="d-block w-100" alt="Imagem 3">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Nossos Produtos</h5>
-                        <p>Produtos de qualidade para atender às suas necessidades.</p>
+                        <h5></h5>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -187,30 +187,30 @@
     <!-- Seção de Imagens Circulares -->
 <section id="circular-images" class="py-5 text-center">
     <div class="container">
-        <h2 class="section-title">Nossa Equipe</h2>
+        <h2 class="section-title">Nossas Redes</h2>
         <div class="image-row d-flex justify-content-center">
             <div class="image-container mx-2">
-                <img src="https://i.pinimg.com/564x/d2/10/13/d210133be013456c6fc2819440141f6a.jpg" alt="Membro da Equipe" class="rounded-circle">
-                <p>Nome 1</p>
+                <img src="https://i.pinimg.com/564x/c4/d0/4e/c4d04ee6ccf9428f1109cd6b19ff8fd6.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>WhatsApp</p>
             </div>
             <div class="image-container mx-2">
-                <img src="https://i.pinimg.com/564x/1b/9d/9c/1b9d9cb414f8b355728fa9c45fc16be2.jpg" alt="Membro da Equipe" class="rounded-circle">
-                <p>Nome 2</p>
+                <img src="https://i.pinimg.com/564x/4b/a6/d2/4ba6d21d360ca5f9b6145f5b0a51bcc5.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Instagram</p>
             </div>
             <div class="image-container mx-2">
-                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
-                <p>Nome 3</p>
+                <img src="https://i.pinimg.com/564x/67/b0/e4/67b0e41a844b5013ddaade0a7ac8f794.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Facebook</p>
             </div>
             <div class="image-container mx-2">
-                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
-                <p>Nome 3</p>
+                <img src="https://i.pinimg.com/564x/a7/8a/d5/a78ad5fb5b797572e0ed8685af84826a.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Produtos</p>
             </div>
             <div class="image-container mx-2">
-                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
-                <p>Nome 3</p>
+                <img src="https://i.pinimg.com/564x/ea/8f/7b/ea8f7b9719aebad5c0ef3974c981d426.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <p>Formas de Pagamento</p>
             </div>
             <div class="image-container mx-2">
-                <img src="https://i.pinimg.com/564x/37/f5/a5/37f5a53401f9cdcd719c210068fdad8c.jpg" alt="Membro da Equipe" class="rounded-circle">
+                <img src="https://i.pinimg.com/564x/3b/67/a1/3b67a1025a729200196d5fb9d763a480.jpg" alt="Membro da Equipe" class="rounded-circle">
                 <p>Nome 3</p>
             </div>
         </div>
@@ -225,7 +225,7 @@
                 <!-- Exemplo de Cliente -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Cliente">
+                        <img src="https://i.pinimg.com/564x/05/6f/af/056fafb8952d579db4f4869f13996215.jpg"" class="card-img-top" alt="Cliente">
                         <div class="card-body">
                             <h5 class="card-title">Nome do Cliente</h5>
                             <p class="card-text">Detalhes do Cliente.</p>
@@ -235,7 +235,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Cliente">
+                        <img src="https://i.pinimg.com/564x/1b/c3/95/1bc395b66817dc5db1c5624b20a1664a.jpg" class="card-img-top" alt="Cliente">
                         <div class="card-body">
                             <h5 class="card-title">Nome do Cliente</h5>
                             <p class="card-text">Detalhes do Cliente.</p>
@@ -245,7 +245,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Cliente">
+                        <img src="https://i.pinimg.com/736x/89/d3/06/89d306b353256ab89501554bfb7a1a01.jpg" class="card-img-top" alt="Cliente">
                         <div class="card-body">
                             <h5 class="card-title">Nome do Cliente</h5>
                             <p class="card-text">Detalhes do Cliente.</p>
@@ -266,91 +266,91 @@
                 <!-- Exemplo de Produto -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/231713-300-300?v=638580911462100000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">DorFlex Uno</h5>
+                            <p class="card-text">Analgésico Dorflex Uno Enxaqueca 1g 20 Comprimidos</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">21,30</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/231586-300-300?v=638580906272200000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Novalgina</h5>
+                            <p class="card-text">Analgésico e Antitérmico Novalgina 1g 10 Comprimidos</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">18,39</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/208666-300-300?v=638446548885600000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Loratamed</h5>
+                            <p class="card-text">Loratamed 10mg 12 Comprimidos</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">5,09</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/208994-300-300?v=638542521670200000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Dipirona</h5>
+                            <p class="card-text">Dipirona Monoidratada 500mg EMS 10 Comprimidos</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">3,49</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/221977-300-300?v=638528147253100000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Feminis</h5>
+                            <p class="card-text">Suplemento Alimentar Feminis 30 Cápsulas Gelatinosas Moles</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">122,79</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/186073-300-300?v=638575153166430000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Esomeprazol</h5>
+                            <p class="card-text">Esomeprazol Magnésico Tri-Hidratado 40mg EMS - 28 Comprimidos Revestidos</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">66,69</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/208625-300-300?v=638446342573070000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Nevralgex </h5>
+                            <p class="card-text">Nevralgex 30 Comprimidos</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">10,59</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/209059-300-300?v=638446556890670000&width=300&height=300&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Miorrelax</h5>
+                            <p class="card-text">Miorrelax 30 Comprimidos Relaxante Muscular</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">12,59</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Produto">
+                        <img src="https://drogal.vtexassets.com/arquivos/ids/189911-800-600?v=638387874747630000&width=800&height=600&aspect=true" class="card-img-top" alt="Produto">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Produto</h5>
-                            <p class="card-text">Descrição do Produto.</p>
-                            <a href="{{ route('products.index') }}" class="btn btn-primary">Ver todos</a>
+                            <h5 class="card-title">Nervocalm</h5>
+                            <p class="card-text">Nervocalm 250mg 60 Comprimidos</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">73,29</a>
                         </div>
                     </div>
                 </div>
@@ -367,7 +367,7 @@
                 <!-- Exemplo de Venda -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Venda">
+                        <img src="https://i.pinimg.com/564x/b6/53/e2/b653e272f882e1771cea7b7c547ffd54.jpg" class="card-img-top" alt="Venda">
                         <div class="card-body">
                             <h5 class="card-title">Realizar Venda</h5>
                             <p class="card-text">Cliente: Nome do Cliente</p>
@@ -378,7 +378,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Venda">
+                        <img src="https://i.pinimg.com/564x/1b/c3/95/1bc395b66817dc5db1c5624b20a1664a.jpg" class="card-img-top" alt="Venda">
                         <div class="card-body">
                             <h5 class="card-title">Detalhes da última Venda</h5>
                             <p class="card-text">Cliente: Nome do Cliente</p>
